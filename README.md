@@ -5,7 +5,7 @@ I created this app to testing running go code into Flutter. I tested and running
 See below step to running
 
 1. go code is into folder gomobilelib  (if would you like see gomobile.go)
-2. i created folder and copied file to folder gomobilelib.aar
+2. i created folder libs into android/app/src/main and copied file to folder gomobilelib.aar
 2. i configured the library into build grade /android/app/buil.grade
 
 repositories {
