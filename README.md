@@ -2,11 +2,11 @@
 
 I created this app to testing running go code into Flutter. I tested and running Okay!
 
-See below step to running
+What did i do?
 
-1. go code is into folder gomobilelib  (if would you like see gomobile.go)
+1. i created go code is into folder gomobilelib  (if would you like see gomobile.go)
 2. i created folder libs into android/app/src/main and copied file to folder gomobilelib.aar
-2. i configured the library into build grade /android/app/buil.grade
+2. i configured the library into build grade /android/app/build.grade
 
 repositories {
     flatDir {
@@ -17,7 +17,8 @@ dependencies {
     api(name:'gomobilelib', ext:'aar')
 }
 
-3. run project 
+4. i changed file MainActivity.java to running library gomobilelib
+3. run flutter project 
 4. i tested only vm android 12 x86_64 api level 31
 5. If you have some doubles, open issue or question here in github, thanks!
 
