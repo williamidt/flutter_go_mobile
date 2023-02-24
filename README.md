@@ -1,5 +1,31 @@
 # flutter_go_mobile
 
+I created this app to testing running go code into Flutter. I tested and running Okay!
+
+See below step to running
+
+1. go code is into folder gomobilelib  (if would you like see gomobile.go)
+2. i created folder and copied file to folder gomobilelib.aar
+2. i configured the library into build grade /android/app/buil.grade
+
+repositories {
+    flatDir {
+        dirs 'src/main/libs'
+    }
+}
+dependencies {
+    api(name:'gomobilelib', ext:'aar')
+}
+
+3. run project 
+4. i tested only vm android 12 x86_64 api level 31
+5. If you have some doubles, open issue or question here in github, thanks!
+
+![image](https://user-images.githubusercontent.com/65929403/221300997-2be5147f-0c01-4972-9527-f3492fc357cd.png)
+
+
+Reference https://blog.logrocket.com/why-use-go-backend-flutter/
+
 A new Flutter project.
 
 ## Getting Started
